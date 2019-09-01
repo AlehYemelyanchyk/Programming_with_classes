@@ -1,8 +1,8 @@
-package by.epam.ayem.main;
+package by.epam.ayem.module4;
 
-/*1.Создайте класс Task1 двумя переменными.Добавьте метод вывода на экран и методы
-изменения этих переменных.Добавьте метод,который находит суммму значений этих переменных,
-и метод,который находит наибольшее значение из этих двух переменных.*/
+/*1.Создайте класс Task1 c двумя переменными. Добавьте метод вывода на экран и методы
+изменения этих переменных. Добавьте метод, который находит суммму значений этих переменных,
+и метод, который находит наибольшее значение из этих двух переменных.*/
 
 public class Task1 {
 
@@ -10,7 +10,6 @@ public class Task1 {
     private int var2;
 
     public void printVar() {
-
         System.out.println("Variable 1 = " + var1);
         System.out.println("Variable 2 = " + var2);
     }
@@ -24,14 +23,11 @@ public class Task1 {
     }
 
     public void sum() {
-
         int sum = var1 + var2;
-
         System.out.println("Sum of variables = " + sum);
     }
 
     public void biggerVar() {
-
         if (var1 > var2) {
             System.out.println("The bigger variable is " + var1);
         } else if (var2 > var1) {

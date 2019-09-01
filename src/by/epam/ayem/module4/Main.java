@@ -1,4 +1,4 @@
-package by.epam.ayem.main;
+package by.epam.ayem.module4;
 
 public class Main {
 
